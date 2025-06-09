@@ -176,7 +176,7 @@ void Browser::sendRequest(const QString &prompt) {
     QNetworkRequest request(QUrl("https://llm.api.cloud.yandex.net/foundationModels/v1/completion"));
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
 
-    request.setRawHeader("Authorization", "Api-Key AQVNy1LmL1o0fMUJJEGTbiUuxBbU2RBHyU-3k96s");
+    request.setRawHeader("Authorization", "Api-Key <API_KEY>");
 
     QJsonObject completionOptions;
     completionOptions["stream"] = false;
@@ -191,7 +191,7 @@ void Browser::sendRequest(const QString &prompt) {
 
 
     QJsonObject json;
-    json["modelUri"] = "gpt://b1gij2uoru9ptl5ej5ek/yandexgpt/latest";
+    json["modelUri"] = "gpt://<Folder>/yandexgpt/latest";
     json["completionOptions"] = completionOptions;
     json["messages"] = messages;
 
