@@ -189,6 +189,7 @@ void Browser::sendRequest(const QString &prompt) {
     userMsg["text"] = prompt;
     messages.append(userMsg);
 
+
     QJsonObject json;
     json["modelUri"] = "gpt://b1gij2uoru9ptl5ej5ek/yandexgpt/latest";
     json["completionOptions"] = completionOptions;
