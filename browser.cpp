@@ -183,7 +183,6 @@ void Browser::sendRequest(const QString &prompt) {
     completionOptions["temperature"] = 0.5;
     completionOptions["maxTokens"] = 5000;
 
-
     QJsonArray messages;
     QJsonObject userMsg;
     userMsg["role"] = "user";
