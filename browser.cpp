@@ -25,7 +25,7 @@ Browser::Browser(QWidget *parent) :
 }
 
 void Browser::setupVisual() {
-    setWindowTitle("Sosal Browser");
+    setWindowTitle("QT Browser");
     this->resize(1024, 768);
 
 }
@@ -99,7 +99,7 @@ void Browser::logToFile(const QString &message) {
 void Browser::onAbout() {
     QMessageBox box;
     box.setWindowTitle("About");
-    box.setText("Sosal Browser\nВерсия 14.88");
+    box.setText("QT Browser\nВерсия 14.88");
 
     QPixmap goidaPix("/Users/dmitry_muffin/CLionProjects/untitled/pics/goida_logo_2.webp");
 
