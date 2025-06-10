@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_untitled_FILE /Users/dmitry_muffin/CLionProjects/untitled/build/untitled)
+set(__QT_DEPLOY_TARGET_untitled_TYPE EXECUTABLE)
